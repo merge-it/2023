@@ -63,33 +63,19 @@ h2,
     font-weight: 700 !important;
 }
 
-h3,
-.h3,
+
 h4,
 .h4 {
     font-weight: 600 !important;
 }
 
-h5,
-.h5,
+
 .fw-semi-bold {
     font-weight: 500 !important;
 }
 
 
 /*** Spinner ***/
-#spinner {
-    opacity: 0;
-    visibility: hidden;
-    transition: opacity .5s ease-out, visibility 0s linear .5s;
-    z-index: 99999;
-}
-
-#spinner.show {
-    transition: opacity .5s ease-out, visibility 0s linear 0s;
-    visibility: visible;
-    opacity: 1;
-}
 
 
 /*** Button ***/
@@ -138,27 +124,11 @@ h5,
     border-bottom: 1px solid rgba(53, 94, 252, .07);
 }
 
-.navbar .navbar-nav .nav-link {
-    padding: 25px 15px;
-    color: var(--tertiary);
-    font-weight: 500;
-    outline: none;
-}
-
-.navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
-}
-
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
         border-top: 1px solid rgba(0, 0, 0, .07);
         background: #FFFFFF;
-    }
-
-    .navbar .navbar-nav .nav-link {
-        padding: 10px 0;
     }
 }
 
@@ -215,22 +185,6 @@ h5,
 
 
 /*** Service ***/
-.service .nav .nav-link {
-    transition: .5s;
-}
-
-.service .nav .nav-link.active {
-    border-color: var(--primary) !important;
-    background: var(--primary);
-}
-
-.service .nav .nav-link.active h5 {
-    color: #FFFFFF !important;
-}
-
-.service .nav .nav-link.active h5 i {
-    color: #FFFFFF !important;
-}
 
 
 /*** Project ***/
@@ -259,7 +213,6 @@ h5,
 }
 
 .project-item .project-title {
-    position: absolute;
     top: 3rem;
     right: 0;
     bottom: 0;
@@ -331,4 +284,54 @@ h5,
 
 .copyright a:hover {
     color: var(--primary);
+}
+
+/******************************
+*/
+
+.schedule tr {
+	height: 80px;
+}
+
+.schedule th {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.schedule td {
+	min-width: 150px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+
+.schedule .filled {
+    padding: 10px;
+    background-color: #DEE2FB;
+    border-radius: 10px;
+	position: absolute;
+    top: 2px;
+    bottom: 2px;
+	left: 2px;
+    right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule .empty {
+    padding: 10px;
+    background-color: #DEE2FB;
+	opacity: 0.3;
+    border-radius: 10px;
+	position: absolute;
+    top: 2px;
+    bottom: 2px;
+	left: 2px;
+    right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

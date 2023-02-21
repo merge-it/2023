@@ -345,7 +345,6 @@ h6,
 }
 
 .project-item .project-title {
-    position: absolute;
     top: 3rem;
     right: 0;
     bottom: 0;
@@ -580,4 +579,54 @@ h6,
 
 .copyright a:hover {
     color: var(--primary);
+}
+
+/******************************
+*/
+
+.schedule tr {
+	height: 80px;
+}
+
+.schedule th {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.schedule td {
+	min-width: 150px;
+	text-align: center;
+	vertical-align: middle;
+	position: relative;
+}
+
+.schedule .filled {
+    padding: 10px;
+    background-color: #DEE2FB;
+    border-radius: 10px;
+	position: absolute;
+    top: 2px;
+    bottom: 2px;
+	left: 2px;
+    right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule .empty {
+    padding: 10px;
+    background-color: #DEE2FB;
+	opacity: 0.3;
+    border-radius: 10px;
+	position: absolute;
+    top: 2px;
+    bottom: 2px;
+	left: 2px;
+    right: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

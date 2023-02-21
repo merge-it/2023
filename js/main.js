@@ -1,16 +1,6 @@
 (function ($) {
     "use strict";
 
-    // Spinner
-    var spinner = function () {
-        setTimeout(function () {
-            if ($('#spinner').length > 0) {
-                $('#spinner').removeClass('show');
-            }
-        }, 1);
-    };
-    spinner();
-
 
     // Initiate the wowjs
     new WOW().init();
@@ -52,7 +42,7 @@
     // Project carousel
     $(".project-carousel").owlCarousel({
         autoplay: true,
-        smartSpeed: 1000,
+        smartSpeed: 500,
         margin: 25,
         loop: true,
         center: true,
@@ -73,7 +63,7 @@
                 items:2
             },
             992:{
-                items:3
+                items:4
             }
         }
     });
