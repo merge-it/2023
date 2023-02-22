@@ -584,8 +584,12 @@ h6,
 /******************************
 */
 
+.schedule {
+	height: fit-content;
+}
+
 .schedule tr {
-	height: 80px;
+	height: 100px;
 }
 
 .schedule th {
@@ -593,40 +597,38 @@ h6,
 	vertical-align: middle;
 }
 
+.schedule th.hour {
+	vertical-align: top;
+}
+
 .schedule td {
 	min-width: 150px;
 	text-align: center;
 	vertical-align: middle;
 	position: relative;
+	padding: 2px;
+	height: 100%;
 }
 
-.schedule .filled {
+.schedule td .cell.half:nth-child(1) {
+	margin-bottom: 2px;
+}
+
+.schedule .cell {
     padding: 10px;
     background-color: #DEE2FB;
     border-radius: 10px;
-	position: absolute;
-    top: 2px;
-    bottom: 2px;
-	left: 2px;
-    right: 2px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+	height: 100%;
 }
 
-.schedule .empty {
-    padding: 10px;
-    background-color: #DEE2FB;
+.schedule .cell.empty {
 	opacity: 0.3;
-    border-radius: 10px;
-	position: absolute;
-    top: 2px;
-    bottom: 2px;
-	left: 2px;
-    right: 2px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+}
+
+.schedule .cell.half {
+	height: 50%;
 }
