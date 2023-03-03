@@ -69,7 +69,8 @@ h4,
     font-weight: 600 !important;
 }
 
-
+h5,
+.h5,
 .fw-semi-bold {
     font-weight: 500 !important;
 }
