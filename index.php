@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<?php
+
+require_once('contents.php');
+$contents = new Contents();
+
+?>
+
 <head>
     <meta charset="utf-8">
     <title>MERGE-it 2023</title>
@@ -27,8 +34,8 @@
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="build/fa.css" rel="stylesheet">
-    <link href="build/style.css" rel="stylesheet">
+    <link href="css/fa.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -202,7 +209,7 @@
 								<th width="5%">&nbsp;</th>
 								<th width="19%">Academy</th>
 								<th width="19%">Playground</th>
-								<th width="19%">Nuvola</th>
+								<th width="19%">FabSchool</th>
 								<th width="19%">UX Lab</th>
 								<th width="19%">Sala Riunioni</th>
 							</tr>
@@ -211,14 +218,12 @@
 							<tr>
 								<th class="hour">10:00</th>
 								<td>
-									<div class="cell">Benvenuti a MERGE-it 2023</div>
+									<div class="cell"><?php echo $contents->printCell('welcome') ?></div>
 								</td>
 								<td rowspan="3">
 									<div class="cell">Spazio Espositivo</div>
 								</td>
-								<td rowspan="3">
-									<div class="cell">Spazio Open Mic</div>
-								</td>
+								<td>&nbsp;</td>
 								<td>&nbsp;</td>
 								<td rowspan="3">
 									<div class="cell">Certificazioni LPI</div>
@@ -227,18 +232,26 @@
 							<tr>
 								<th class="hour">11:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('cittadella') ?></div>
 									<div class="cell empty half">Talk</div>
 								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
+								</td>
 								<td rowspan="2">
-									<div class="cell empty">Tavola Rotonda<br>Imprese + Community</div>
+									<div class="cell"><?php echo $contents->printCell('fri-roundtable-1') ?></div>
 								</td>
 							</tr>
 							<tr>
 								<th class="hour">12:00</th>
 								<td>
+									<div class="cell half"><?php echo $contents->printCell('openstamanager') ?></div>
 									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
+								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
 								</td>
 							</tr>
 							<tr>
@@ -259,11 +272,12 @@
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
 								</td>
-								<td rowspan="4">
-									<div class="cell">Spazio Open Mic</div>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
 								</td>
 								<td rowspan="2">
-									<div class="cell empty">Tavola Rotonda<br>Imprese + PA</div>
+									<div class="cell"><?php echo $contents->printCell('fri-roundtable-2') ?></div>
 								</td>
 								<td rowspan="4">
 									<div class="cell">Certificazioni LPI</div>
@@ -272,8 +286,12 @@
 							<tr>
 								<th class="hour">16:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('ondata') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('aiip') ?></div>
+								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
 								</td>
 							</tr>
 							<tr>
@@ -282,8 +300,12 @@
 									<div class="cell empty half">Talk</div>
 									<div class="cell empty half">Talk</div>
 								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
+								</td>
 								<td rowspan="2">
-									<div class="cell empty">Tavola Rotonda<br>Imprese + Imprese</div>
+									<div class="cell"><?php echo $contents->printCell('fri-roundtable-3') ?></div>
 								</td>
 							</tr>
 							<tr>
@@ -291,6 +313,10 @@
 								<td>
 									<div class="cell empty half">Talk</div>
 									<div class="cell empty half">Talk</div>
+								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
 								</td>
 							</tr>
 						</tbody>
@@ -305,7 +331,7 @@
 								<th width="5%">&nbsp;</th>
 								<th width="19%">Academy</th>
 								<th width="19%">Playground</th>
-								<th width="19%">Nuvola</th>
+								<th width="19%">FabSchool</th>
 								<th width="19%">UX Lab</th>
 								<th width="19%">Sala Riunioni</th>
 							</tr>
@@ -320,11 +346,12 @@
 								<td rowspan="3">
 									<div class="cell">Spazio Espositivo</div>
 								</td>
-								<td rowspan="3">
-									<div class="cell">Spazio Open Mic</div>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('gameshell') ?></div>
 								</td>
 								<td rowspan="3">
-									<div class="cell empty">Tavole Rotonde<br>4 tavoli x 4 temi</div>
+									<div class="cell"><?php echo $contents->printCell('sat-roundtable-1') ?></div>
 								</td>
 								<td>&nbsp;</td>
 							</tr>
@@ -334,13 +361,21 @@
 									<div class="cell empty half">Talk</div>
 									<div class="cell empty half">Talk</div>
 								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('sparql') ?></div>
+								</td>
 								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="hour">12:00</th>
 								<td>
+									<div class="cell half"><?php echo $contents->printCell('servizi-ils') ?></div>
 									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
+								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
 								</td>
 								<td>&nbsp;</td>
 							</tr>
@@ -362,11 +397,12 @@
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
 								</td>
-								<td rowspan="4">
-									<div class="cell">Spazio Open Mic</div>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
 								</td>
-								<td rowspan="4">
-									<div class="cell empty">Tavole Rotonde<br>4 tavoli x 4 temi</div>
+								<td rowspan="2">
+									<div class="cell"><?php echo $contents->printCell('sat-roundtable-2') ?></div>
 								</td>
 								<td>&nbsp;</td>
 							</tr>
@@ -376,6 +412,10 @@
 									<div class="cell empty half">Talk</div>
 									<div class="cell empty half">Talk</div>
 								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
+								</td>
 								<td>&nbsp;</td>
 							</tr>
 							<tr>
@@ -383,6 +423,13 @@
 								<td>
 									<div class="cell empty half">Talk</div>
 									<div class="cell empty half">Talk</div>
+								</td>
+								<td>
+									<div class="cell empty half"></div>
+									<div class="cell empty half"></div>
+								</td>
+								<td rowspan="2">
+									<div class="cell"><?php echo $contents->printCell('sat-roundtable-3') ?></div>
 								</td>
 								<td>&nbsp;</td>
 							</tr>
@@ -409,6 +456,29 @@
             </div>
         </div>
     </div>
+
+	<?php foreach($contents->getAll() as $identifier => $meta): ?>
+		<div class="modal fade" id="<?php echo $identifier ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+			<div class="modal-dialog modal-lg">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="staticBackdropLabel"><?php echo $meta->title ?></h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<?php foreach($meta->contents as $row): ?>
+							<p>
+								<?php echo $row ?>
+							</p>
+						<?php endforeach ?>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	<?php endforeach ?>
 
     <div class="container-fluid callback my-5 pt-5">
         <div class="container pt-5">
@@ -537,7 +607,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">MERGE-it</a>, CC-4.0.
+                    <a class="border-bottom" href="#">MERGE-it</a>, CC-4.0.
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>

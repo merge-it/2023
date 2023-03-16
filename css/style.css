@@ -588,8 +588,12 @@ h6,
 	height: fit-content;
 }
 
-.schedule tr {
+.schedule thead tr {
 	height: 100px;
+}
+
+.schedule tbody tr {
+	height: 160px;
 }
 
 .schedule th {
