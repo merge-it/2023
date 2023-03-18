@@ -206,12 +206,11 @@ $contents = new Contents();
 					<table class="table table-borderless schedule">
 						<thead>
 							<tr>
-								<th width="5%">&nbsp;</th>
-								<th width="19%">Academy</th>
-								<th width="19%">Playground</th>
-								<th width="19%">FabSchool</th>
-								<th width="19%">UX Lab</th>
-								<th width="19%">Sala Riunioni</th>
+								<th width="8%">&nbsp;</th>
+								<th width="24%">Academy</th>
+								<th width="24%">Playground</th>
+								<th width="24%">FabSchool</th>
+								<th width="24%">UX Lab</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -225,9 +224,6 @@ $contents = new Contents();
 								</td>
 								<td>&nbsp;</td>
 								<td>&nbsp;</td>
-								<td rowspan="3">
-									<div class="cell">Certificazioni LPI</div>
-								</td>
 							</tr>
 							<tr>
 								<th class="hour">11:00</th>
@@ -237,7 +233,7 @@ $contents = new Contents();
 								</td>
 								<td>
 									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('vvvv') ?></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('fri-roundtable-1') ?></div>
@@ -256,7 +252,7 @@ $contents = new Contents();
 							</tr>
 							<tr>
 								<th class="hour">13:00</th>
-								<td colspan="5" rowspan="2">
+								<td colspan="4" rowspan="2">
 									<div class="cell">Pausa Pranzo & Networking<br>(catering in sede)</div>
 								</td>
 							</tr>
@@ -279,9 +275,6 @@ $contents = new Contents();
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('fri-roundtable-2') ?></div>
 								</td>
-								<td rowspan="4">
-									<div class="cell">Certificazioni LPI</div>
-								</td>
 							</tr>
 							<tr>
 								<th class="hour">16:00</th>
@@ -297,7 +290,7 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">17:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('gis') ?></div>
 									<div class="cell empty half">Talk</div>
 								</td>
 								<td>
@@ -328,60 +321,45 @@ $contents = new Contents();
 					<table class="table table-borderless schedule">
 						<thead>
 							<tr>
-								<th width="5%">&nbsp;</th>
-								<th width="19%">Academy</th>
-								<th width="19%">Playground</th>
-								<th width="19%">FabSchool</th>
-								<th width="19%">UX Lab</th>
-								<th width="19%">Sala Riunioni</th>
+								<th width="8%">&nbsp;</th>
+								<th width="24%">Academy</th>
+								<th width="24%">Playground</th>
+								<th width="24%">FabSchool</th>
+								<th width="24%">UX Lab</th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<th class="hour">10:00</th>
-								<td>
-									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
-								</td>
-								<td rowspan="3">
-									<div class="cell">Spazio Espositivo</div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell half"><?php echo $contents->printCell('gameshell') ?></div>
-								</td>
-								<td rowspan="3">
-									<div class="cell"><?php echo $contents->printCell('sat-roundtable-1') ?></div>
-								</td>
-								<td>&nbsp;</td>
-							</tr>
 							<tr>
 								<th class="hour">11:00</th>
 								<td>
 									<div class="cell empty half">Talk</div>
 									<div class="cell empty half">Talk</div>
 								</td>
+								<td rowspan="2">
+									<div class="cell">Spazio Espositivo</div>
+								</td>
 								<td>
 									<div class="cell empty half"></div>
-									<div class="cell half"><?php echo $contents->printCell('sparql') ?></div>
+									<div class="cell empty half"></div>
 								</td>
-								<td>&nbsp;</td>
+								<td rowspan="2">
+									<div class="cell"><?php echo $contents->printCell('sat-roundtable-1') ?></div>
+								</td>
 							</tr>
 							<tr>
 								<th class="hour">12:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('servizi-ils') ?></div>
+									<div class="cell empty half">Talk</div>
 									<div class="cell empty half">Talk</div>
 								</td>
 								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('gameshell') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('sparql') ?></div>
 								</td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="hour">13:00</th>
-								<td colspan="5" rowspan="2">
+								<td colspan="4" rowspan="2">
 									<div class="cell">Pausa Pranzo & Networking<br>(catering in sede)</div>
 								</td>
 							</tr>
@@ -391,7 +369,7 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">15:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('servizi-ils') ?></div>
 									<div class="cell empty half">Talk</div>
 								</td>
 								<td rowspan="4">
@@ -402,9 +380,8 @@ $contents = new Contents();
 									<div class="cell empty half"></div>
 								</td>
 								<td rowspan="2">
-									<div class="cell"><?php echo $contents->printCell('sat-roundtable-2') ?></div>
+									<div class="cell"><?php echo $contents->printCell('sat-roundtable-3') ?></div>
 								</td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="hour">16:00</th>
@@ -416,7 +393,6 @@ $contents = new Contents();
 									<div class="cell empty half"></div>
 									<div class="cell empty half"></div>
 								</td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="hour">17:00</th>
@@ -429,16 +405,14 @@ $contents = new Contents();
 									<div class="cell empty half"></div>
 								</td>
 								<td rowspan="2">
-									<div class="cell"><?php echo $contents->printCell('sat-roundtable-3') ?></div>
+									<div class="cell"><?php echo $contents->printCell('sat-roundtable-2') ?></div>
 								</td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="hour">18:00</th>
 								<td>
 									<div class="cell">Saluti Finali</div>
 								</td>
-								<td>&nbsp;</td>
 							</tr>
 						</tbody>
 					</table>
