@@ -247,7 +247,7 @@ $contents = new Contents();
 								</td>
 								<td>
 									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('osa') ?></div>
 								</td>
 							</tr>
 							<tr>
@@ -262,7 +262,7 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">15:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('fuss') ?></div>
 									<div class="cell empty half">Talk</div>
 								</td>
 								<td rowspan="4">
@@ -370,7 +370,7 @@ $contents = new Contents();
 								<th class="hour">15:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('servizi-ils') ?></div>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('apache') ?></div>
 								</td>
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
@@ -401,8 +401,8 @@ $contents = new Contents();
 									<div class="cell empty half">Talk</div>
 								</td>
 								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('wikitext') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('wikiphoto') ?></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('sat-roundtable-2') ?></div>
