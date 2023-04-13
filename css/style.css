@@ -356,6 +356,7 @@ h6,
     padding: 18px;
     z-index: -1;
     transition: .5s;
+    min-height: 100px;
 }
 
 .project-item:hover .project-title {

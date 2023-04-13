@@ -49,21 +49,21 @@
         dots: false,
         nav: true,
         navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
+            '<i class="fa fa-chevron-left"></i>',
+            '<i class="fa fa-chevron-right"></i>',
         ],
         responsive: {
 			0:{
-                items:1
-            },
-            576:{
-                items:1
-            },
-            768:{
                 items:2
             },
-            992:{
+            576:{
                 items:4
+            },
+            768:{
+                items:6
+            },
+            992:{
+                items:8
             }
         }
     });

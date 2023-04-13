@@ -263,7 +263,7 @@ $contents = new Contents();
 								<th class="hour">15:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('fuss') ?></div>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('openhospital') ?></div>
 								</td>
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
@@ -386,18 +386,18 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">16:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('trash') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('fsfe') ?></div>
 								</td>
 								<td>
-									<div class="cell empty half"></div>
+                                    <div class="cell empty half"></div>
 									<div class="cell empty half"></div>
 								</td>
 							</tr>
 							<tr>
 								<th class="hour">17:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('minetest') ?></div>
 									<div class="cell empty half">Talk</div>
 								</td>
 								<td>
@@ -455,79 +455,77 @@ $contents = new Contents();
 	<?php endforeach ?>
 
     <div class="container-fluid callback my-5 pt-5">
-        <div class="container pt-5">
-            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.3s">
-                <div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/ils.png" alt="">
-                        <a href="https://www.ils.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Italian Linux Society</h4>
-                    </div>
+        <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.3s">
+            <div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/ils.png" alt="">
+                    <a href="https://www.ils.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
                 </div>
-				<div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/wikimedia.png" alt="">
-                        <a href="https://www.wikimedia.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Wikimedia Italia</h4>
-                    </div>
+                <div class="project-title">
+                    <h4 class="mb-0">Italian Linux Society</h4>
                 </div>
-				<div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/gfoss.png" alt="">
-                        <a href="https://gfoss.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">GFOSS.it</h4>
-                    </div>
+            </div>
+			<div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/wikimedia.png" alt="">
+                    <a href="https://www.wikimedia.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
                 </div>
-				<div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/ondata.png" alt="">
-                        <a href="https://www.ondata.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">onData</h4>
-                    </div>
+                <div class="project-title">
+                    <h4 class="mb-0">Wikimedia Italia</h4>
                 </div>
-                <div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/itpug.png" alt="">
-                        <a href="https://www.itpug.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">ITPUG</h4>
-                    </div>
+            </div>
+			<div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/gfoss.png" alt="">
+                    <a href="https://gfoss.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
                 </div>
-				<div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/fsfe.png" alt="">
-                        <a href="https://fsfe.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">FSFE</h4>
-                    </div>
+                <div class="project-title">
+                    <h4 class="mb-0">GFOSS.it</h4>
                 </div>
-				<div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/devol.png" alt="">
-                        <a href="https://devol.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Devol</h4>
-                    </div>
+            </div>
+			<div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/ondata.png" alt="">
+                    <a href="https://www.ondata.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
                 </div>
-				<div class="project-item pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/logos/libreitalia.png" alt="">
-                        <a href="https://www.libreitalia.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">LibreItalia</h4>
-                    </div>
+                <div class="project-title">
+                    <h4 class="mb-0">onData</h4>
+                </div>
+            </div>
+            <div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/itpug.png" alt="">
+                    <a href="https://www.itpug.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
+                </div>
+                <div class="project-title">
+                    <h4 class="mb-0">ITPUG</h4>
+                </div>
+            </div>
+			<div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/fsfe.png" alt="">
+                    <a href="https://fsfe.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
+                </div>
+                <div class="project-title">
+                    <h4 class="mb-0">FSFE</h4>
+                </div>
+            </div>
+			<div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/devol.png" alt="">
+                    <a href="https://devol.it/"><i class="fa fa-link fa-3x text-primary"></i></a>
+                </div>
+                <div class="project-title">
+                    <h4 class="mb-0">Devol</h4>
+                </div>
+            </div>
+			<div class="project-item pb-5">
+                <div class="project-img mb-3">
+                    <img class="img-fluid rounded" src="img/logos/libreitalia.png" alt="">
+                    <a href="https://www.libreitalia.org/"><i class="fa fa-link fa-3x text-primary"></i></a>
+                </div>
+                <div class="project-title">
+                    <h4 class="mb-0">LibreItalia</h4>
                 </div>
             </div>
         </div>
