@@ -291,7 +291,7 @@ $contents = new Contents();
 								<th class="hour">17:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('gis') ?></div>
-									<div class="cell empty half">Talk</div>
+									<div class="cell half"><?php echo $contents->printCell('zorin') ?></div>
 								</td>
 								<td>
 									<div class="cell empty half"></div>
@@ -305,7 +305,7 @@ $contents = new Contents();
 								<th class="hour">18:00</th>
 								<td>
 									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
+                                    <div class="cell empty half">Talk</div>
 								</td>
 								<td>
 									<div class="cell empty half"></div>
@@ -548,6 +548,19 @@ $contents = new Contents();
                 </div>
 				<div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
                     <a href="#"><img src="img/partners/last.png" class="img-fluid d-block mx-auto" alt="LAST"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Con il Patrocinio di</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <img src="img/partners/regioneveneto.jpg" class="img-fluid d-block mx-auto" alt="Regione Veneto">
                 </div>
             </div>
         </div>
