@@ -306,7 +306,7 @@ $contents = new Contents();
 								<th class="hour">11:00</th>
 								<td>
                                     <div class="cell half"><?php echo $contents->printCell('gameshell') ?></div>
-									<div class="cell half"><?php echo $contents->printCell('sparql') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('fsfe') ?></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell">Spazio Espositivo</div>
@@ -348,7 +348,7 @@ $contents = new Contents();
 								<th class="hour">16:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('trash') ?></div>
-									<div class="cell half"><?php echo $contents->printCell('fsfe') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('sparql') ?></div>
 								</td>
 							</tr>
 							<tr>
