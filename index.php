@@ -97,7 +97,7 @@ $contents = new Contents();
                     <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
                     <p class="mb-5">In Italia esistono tante realtà che si occupano di libertà digitali, sotto molti aspetti ed in molti modi: associazioni, gruppi informali, aziende, professionisti e pubbliche amministrazioni.<br>
                         Scopo di <strong>MERGE-it</strong> è riunirle insieme, per conoscersi e farsi conoscere, discutere e dibattere, confrontarsi e misurarsi.<br><br>
-                        L'evento è aperto a tutti, la partecipazione gratuita, e non è richiesta registrazione.</p>
+                        L'evento è aperto a tutti, la partecipazione gratuita, e non è richiesta registrazione (ma, per permetterci di regolarci con il catering, ti invitiamo a compilare <a href="https://servizi.linux.it/shared/vbjWMLwd-W5IWsYg6rQDzb6YXfdaN3KrvUnnKn-D6xF">questo form</a>).</p>
                     <p>
                         <small>
                             La prima edizione si è svolta a marzo 2018, a Torino, si è articolata in otto aule tematiche e ha accolto partecipanti da tutta Italia.<br>
@@ -124,7 +124,7 @@ $contents = new Contents();
 
                     <ul>
                         <li>Dove dormire: Verona è una città estremamente frequentata dal turismo internazionale, si raccomanda di prenotare la propria stanza con ampio anticipo per trovare posto a buon prezzo. <a href="#" class="text-decoration-underline" data-bs-toggle="modal" data-bs-target="#alberghi">Clicca qui per consultare l'elenco di strutture convenzionate.</a></li>
-                        <li>Dove mangiare: il 12 e 13 maggio il pranzo sarà organizzato in loco con servizio catering.</li>
+                        <li>Dove mangiare: il 12 e 13 maggio il pranzo sarà organizzato in loco con servizio catering.<br><a class="btn w-100 mt-2 btn-success" target="_blank" href="https://servizi.linux.it/shared/vbjWMLwd-W5IWsYg6rQDzb6YXfdaN3KrvUnnKn-D6xF">Compila il form per non restare senza pranzo!</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-6 wow fadeIn" data-wow-delay="0.3s">
