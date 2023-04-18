@@ -209,7 +209,6 @@ $contents = new Contents();
 								<th width="8%">&nbsp;</th>
 								<th width="24%">Academy</th>
 								<th width="24%">Playground</th>
-								<th width="24%">FabSchool</th>
 								<th width="24%">UX Lab</th>
 							</tr>
 						</thead>
@@ -223,17 +222,12 @@ $contents = new Contents();
 									<div class="cell">Spazio Espositivo</div>
 								</td>
 								<td>&nbsp;</td>
-								<td>&nbsp;</td>
 							</tr>
 							<tr>
 								<th class="hour">11:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('cittadella') ?></div>
-									<div class="cell empty half">Talk</div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell half"><?php echo $contents->printCell('vvvv') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('vvvv') ?></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('fri-roundtable-1') ?></div>
@@ -242,17 +236,13 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">12:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('openstamanager') ?></div>
-									<div class="cell empty half">Talk</div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell half"><?php echo $contents->printCell('osa') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('fuss') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('osa') ?></div>
 								</td>
 							</tr>
 							<tr>
 								<th class="hour">13:00</th>
-								<td colspan="4" rowspan="2">
+								<td colspan="3" rowspan="2">
 									<div class="cell">Pausa Pranzo & Networking<br>(catering in sede)</div>
 								</td>
 							</tr>
@@ -262,15 +252,11 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">15:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('fuss') ?></div>
-									<div class="cell half"><?php echo $contents->printCell('openhospital') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('openstamanager') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('gis') ?></div>
 								</td>
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('fri-roundtable-2') ?></div>
@@ -279,23 +265,15 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">16:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('ondata') ?></div>
-									<div class="cell half"><?php echo $contents->printCell('aiip') ?></div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('nethesis') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('zorin') ?></div>
 								</td>
 							</tr>
 							<tr>
 								<th class="hour">17:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('gis') ?></div>
-									<div class="cell half"><?php echo $contents->printCell('zorin') ?></div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('openhospital') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('ondata') ?></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('fri-roundtable-3') ?></div>
@@ -304,12 +282,8 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">18:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
-                                    <div class="cell empty half">Talk</div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
+									<div class="cell half"><?php echo $contents->printCell('inps') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('aiip') ?></div>
 								</td>
 							</tr>
 						</tbody>
@@ -324,7 +298,6 @@ $contents = new Contents();
 								<th width="8%">&nbsp;</th>
 								<th width="24%">Academy</th>
 								<th width="24%">Playground</th>
-								<th width="24%">FabSchool</th>
 								<th width="24%">UX Lab</th>
 							</tr>
 						</thead>
@@ -332,15 +305,11 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">11:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
+                                    <div class="cell half"><?php echo $contents->printCell('gameshell') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('sparql') ?></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell">Spazio Espositivo</div>
-								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('sat-roundtable-1') ?></div>
@@ -349,12 +318,8 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">12:00</th>
 								<td>
-									<div class="cell empty half">Talk</div>
-									<div class="cell empty half">Talk</div>
-								</td>
-								<td>
-									<div class="cell half"><?php echo $contents->printCell('gameshell') ?></div>
-									<div class="cell half"><?php echo $contents->printCell('sparql') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('wikitext') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('wikiphoto') ?></div>
 								</td>
 							</tr>
 							<tr>
@@ -375,10 +340,6 @@ $contents = new Contents();
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
 								</td>
-								<td>
-									<div class="cell empty half"></div>
-									<div class="cell empty half"></div>
-								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('sat-roundtable-3') ?></div>
 								</td>
@@ -389,20 +350,12 @@ $contents = new Contents();
 									<div class="cell half"><?php echo $contents->printCell('trash') ?></div>
 									<div class="cell half"><?php echo $contents->printCell('fsfe') ?></div>
 								</td>
-								<td>
-                                    <div class="cell empty half"></div>
-									<div class="cell empty half"></div>
-								</td>
 							</tr>
 							<tr>
 								<th class="hour">17:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('minetest') ?></div>
 									<div class="cell empty half">Talk</div>
-								</td>
-								<td>
-									<div class="cell half"><?php echo $contents->printCell('wikitext') ?></div>
-									<div class="cell half"><?php echo $contents->printCell('wikiphoto') ?></div>
 								</td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('sat-roundtable-2') ?></div>

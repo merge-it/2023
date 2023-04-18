@@ -16,7 +16,7 @@ Come insegnare il terminale con GameShell,gameshell,,Daniele Scasciafratte
 Laboratorio interrogazioni in SPARQL su Wikidata,sparql,,Valerio Bozzolan
 Come correggere un errore di battitura su Wikipedia,wikitext,,Cristian Consonni
 Come caricare foto su Wikimedia Commons,wikiphoto,,Cristian Consonni
-[onData],ondata,,
+Dati aperti sul PNRR,ondata,,
 [AIIP],aiip,,
 Visual live-programming con VVVV,vvvv,,
 [GIS],gis,,
@@ -24,3 +24,5 @@ Sovranità digitale ed economia circolare a scuola ed a casa grazie a FUSS e Sch
 Minetest: mondi liberi a cubetti,minetest,,
 FSFE per l'Italia,fsfe,,
 [Zorin],zorin,,
+Intelligenza Artificiale per potenziare la Pubblica Amministrazione,inps,,
+"Come rendere il proprio progetto open source una bomba, creandogli una intera community intorno!",nethesis,"Creare una community di sviluppatori ed utilizzatori intorno al proprio progetto è diventato ormai fondamentale. Persone appassionate che utilizzano il tuo progetto, forniscono feedback, documentazione e casi d'uso, trovano bug, suggeriscono feature e contribuiscono allo sviluppo: tutto questo crea innovazione, attira contributors ed allarga la base di utenti a dismisura. In questo talk spiegherò cercherò di condensare alcuni consigli tratti dalla mia esperienza di 8 anni nel community management: come gestire discussioni aperte, come fare le scelte migliori, come coinvolgere i primi appassionati. Consigli pronti per l'uso, cosa funziona e cosa no."
