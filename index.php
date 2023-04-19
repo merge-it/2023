@@ -253,7 +253,7 @@ $contents = new Contents();
 								<th class="hour">15:00</th>
 								<td>
                                     <div class="cell half"><?php echo $contents->printCell('openstamanager') ?></div>
-                                    <div class="cell half"><?php echo $contents->printCell('gis') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('transport') ?></div>
 								</td>
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
