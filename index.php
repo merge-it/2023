@@ -373,11 +373,13 @@ $contents = new Contents();
 
 				<h2 class="display-5 mb-1 mt-5 text-center">Domenica 14 Maggio</h2>
 				<div class="row justify-content-center">
-					<div class="col-12 col-lg-7">
+					<div class="col">
 						<p class="text-center">
-							Per chi si ferma in città per un altro giorno... Mapping Party + Hackathon!<br>
-							Maggiori informazioni in lavorazione.
+							Per chi si ferma in città per un altro giorno... Mapping Party + Hackathon!
 						</p>
+                        <p class="text-center">
+                            <a href="https://wiki.openstreetmap.org/wiki/Italy/Events/Mapping_Party_OSM_a_MERGE-it_2023">Clicca qui</a> per maggiori informazioni sul Mapping Party e <a href="https://survey.wikimedia.it/index.php/716727?lang=it">clicca qua</a> per la registrazione (non obbligatoria, ma assai gradita!).<br>
+                        </p>
 					</div>
 				</div>
             </div>
