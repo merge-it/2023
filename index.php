@@ -253,7 +253,7 @@ $contents = new Contents();
 								<th class="hour">15:00</th>
 								<td>
                                     <div class="cell half"><?php echo $contents->printCell('openstamanager') ?></div>
-                                    <div class="cell half"><?php echo $contents->printCell('transport') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('bomb') ?></div>
 								</td>
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
@@ -265,8 +265,8 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">16:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('nethesis') ?></div>
-                                    <div class="cell half"><?php echo $contents->printCell('zorin') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('transport') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('nethesis') ?></div>
 								</td>
 							</tr>
 							<tr>
@@ -283,7 +283,7 @@ $contents = new Contents();
 								<th class="hour">18:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('inps') ?></div>
-                                    <div class="cell half"><?php echo $contents->printCell('aiip') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('zorin') ?></div>
 								</td>
 							</tr>
 						</tbody>
