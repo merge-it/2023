@@ -186,12 +186,27 @@ $contents = new Contents();
         <div class="container">
             <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Programma</p>
-				<p class="alert alert-danger">
-					Il programma è attualmente in fase di elaborazione e continua evoluzione!<br>
-					Torna su questa pagina nei prossimi giorni, o seguici su <a href="https://twitter.com/merge_it">Twitter</a> e <a href="https://mastodon.uno/@Merge_IT">Mastodon</a> per aggiornamenti puntuali.
-				</p>
             </div>
-            <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="row g-4 wow fadeInUp justify-content-center" data-wow-delay="0.3s">
+                <div class="row mt-5 align-items-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="/img/planimetria.png">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+        					<div class="col-12 col-md-6">
+                                <p class="text-center mt-2"><i class="fa fa-solid fa-arrow-down fa-3x"></i></p>
+                                In aula Academy (al piano terra, davanti all'ingresso) si tengono i talk ed i workshop, nei quali esperti di ogni specifico ambito raccontano il proprio progetto o la propria esperienza.<br>
+                                Ciascuno dura 30 minuti, e sono benvenute le domande!
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p class="text-center mt-2"><i class="fa fa-solid fa-arrow-down fa-3x"></i></p>
+                                In aula UX Lab (al primo piano: le scale sono a destra dell'ingresso) si tengono le tavole rotonde. Per ciascuna sono previsti alcuni panelist, ma l'intento è quello di coinvolgere direttamente tutti coloro che hanno qualcosa da dire sul tema in oggetto, una esperienza, una posizione o una considerazione.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 				<h2 class="display-5 mb-1 mt-5 text-center">Giovedi 11 Maggio</h2>
 				<div class="row justify-content-center">
 					<div class="col-12 col-lg-7">
