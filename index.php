@@ -166,7 +166,7 @@ $contents = new Contents();
 						<div class="card-body">
 							<h5 class="card-title">Hotel Leonardo Verona</h5>
 							<p>
-								Work in progress!
+								<a href="https://www.leonardo-hotels.com/booking?hotel=leonardo-hotel-verona&from=2023-05-12T00:00:00&to=2023-05-14T00:00:00&stay=leisure&redeemPoints=false&paxesConfig=adults,1,children,0,infants,0&promoCode=infopoint">Clicca qui</a> per prenotare la tua stanza a prezzo agevolato.
 							</p>
 							<hr>
 							<ul>
