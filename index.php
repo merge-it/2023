@@ -530,7 +530,10 @@ $contents = new Contents();
             </div>
             <div class="row g-4 justify-content-center">
                 <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <img src="img/partners/regioneveneto.jpg" class="img-fluid d-block mx-auto" alt="Regione Veneto">
+                    <img src="img/partners/regioneveneto.png" class="img-fluid d-block mx-auto" alt="Regione Veneto">
+                </div>
+                <div class="col-lg-3 col-md-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <img src="img/partners/comuneverona.png" class="img-fluid d-block mx-auto" alt="Comune di Verona">
                 </div>
             </div>
         </div>
