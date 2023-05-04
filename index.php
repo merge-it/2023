@@ -196,7 +196,7 @@ $contents = new Contents();
                         <div class="row">
         					<div class="col-12 col-md-6">
                                 <p class="text-center mt-2"><i class="fa fa-solid fa-arrow-down fa-3x"></i></p>
-                                In aula Academy (al piano terra, davanti all'ingresso) si tengono i talk ed i workshop, nei quali esperti di ogni specifico ambito raccontano il proprio progetto o la propria esperienza.<br>
+                                Nelle aule Academy e FabSchool (al piano terra, davanti all'ingresso) si tengono i talk ed i workshop, nei quali esperti di ogni specifico ambito raccontano il proprio progetto o la propria esperienza.<br>
                                 Ciascuno dura 30 minuti, e sono benvenute le domande!
                             </div>
                             <div class="col-12 col-md-6">
@@ -222,9 +222,10 @@ $contents = new Contents();
 						<thead>
 							<tr>
 								<th width="8%">&nbsp;</th>
-								<th width="24%">Academy</th>
-								<th width="24%">Playground</th>
-								<th width="24%">UX Lab</th>
+								<th width="23%">Academy</th>
+                                <th width="23%">Fab School</th>
+								<th width="23%">Playground</th>
+								<th width="23%">UX Lab</th>
 							</tr>
 						</thead>
 						<tbody>
@@ -233,6 +234,9 @@ $contents = new Contents();
 								<td>
 									<div class="cell"><?php echo $contents->printCell('welcome') ?></div>
 								</td>
+                                <td rowspan="2">
+                                    &nbsp;
+                                </td>
 								<td rowspan="3">
 									<div class="cell">Spazio Espositivo</div>
 								</td>
@@ -251,13 +255,17 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">12:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('fuss') ?></div>
+									<div class="cell half"><?php echo $contents->printCell('qgis') ?></div>
                                     <div class="cell half"><?php echo $contents->printCell('osa') ?></div>
 								</td>
+                                <td>
+                                    <div class="cell half"><?php echo $contents->printCell('zorin') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('fuss') ?></div>
+                                </td>
 							</tr>
 							<tr>
 								<th class="hour">13:00</th>
-								<td colspan="3" rowspan="2">
+								<td colspan="4" rowspan="2">
 									<div class="cell">Pausa Pranzo & Networking<br>(catering in sede)</div>
 								</td>
 							</tr>
@@ -270,6 +278,9 @@ $contents = new Contents();
                                     <div class="cell half"><?php echo $contents->printCell('openstamanager') ?></div>
                                     <div class="cell half"><?php echo $contents->printCell('bomb') ?></div>
 								</td>
+                                <td rowspan="4">
+                                    &nbsp;
+                                </td>
 								<td rowspan="4">
 									<div class="cell">Spazio Espositivo</div>
 								</td>
@@ -298,7 +309,7 @@ $contents = new Contents();
 								<th class="hour">18:00</th>
 								<td>
 									<div class="cell half"><?php echo $contents->printCell('inps') ?></div>
-                                    <div class="cell half"><?php echo $contents->printCell('zorin') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('geopa') ?></div>
 								</td>
 							</tr>
 						</tbody>
