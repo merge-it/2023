@@ -234,7 +234,7 @@ $contents = new Contents();
 								<td>
 									<div class="cell"><?php echo $contents->printCell('welcome') ?></div>
 								</td>
-                                <td rowspan="2">
+                                <td>
                                     &nbsp;
                                 </td>
 								<td rowspan="3">
@@ -248,6 +248,10 @@ $contents = new Contents();
 									<div class="cell half"><?php echo $contents->printCell('cittadella') ?></div>
                                     <div class="cell half"><?php echo $contents->printCell('vvvv') ?></div>
 								</td>
+                                <td>
+                                    <div class="cell half bg-white">&nbsp;</div>
+                                    <div class="cell half"><?php echo $contents->printCell('opendataverona') ?></div>
+                                </td>
 								<td rowspan="2">
 									<div class="cell"><?php echo $contents->printCell('fri-roundtable-1') ?></div>
 								</td>
