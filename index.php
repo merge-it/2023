@@ -594,7 +594,7 @@ $contents = new Contents();
 
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" title="Torna in cima"><i class="fas fa-arrow-up"></i></a>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
