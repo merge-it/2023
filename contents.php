@@ -19,7 +19,7 @@ class Contents
 
 			for($i = 2; $i < count($row); $i++) {
 				$line = trim($row[$i]);
-				if (empty($line) == false) {
+				if ($line) {
 					$node->contents[] = $line;
 				}
 			}
