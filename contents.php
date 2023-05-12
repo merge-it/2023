@@ -19,7 +19,8 @@ class Contents
 
 			for($i = 2; $i < count($row); $i++) {
 				$line = trim($row[$i]);
-				if (empty($line) == false) {
+				if ($line) {
+					$line = self::render($line);
 					$node->contents[] = $line;
 				}
 			}
@@ -36,6 +37,22 @@ class Contents
 	public function getAll()
 	{
 		return $this->contents;
+	}
+
+	public static function render($text)
+	{
+		// render newlines
+		$text = nl2br($text);
+
+		// auto-render links like <https://asd.it>
+		// partial credits for the regex:
+		// https://stackoverflow.com/a/507459/3451846
+		$text = preg_replace(
+			'~<([[:alpha:]]+://[^<>[:space:]]+[[:alnum:]/])>~',
+			'<a href="$1" ref="noreferrer nofollow">$1</a>',
+			$text);
+
+		return $text;
 	}
 
 	public function printCell($identifier)

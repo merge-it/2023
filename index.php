@@ -580,7 +580,10 @@ $contents = new Contents();
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <a class="border-bottom" href="#">MERGE-it</a>, CC-4.0.
+                   <p>&copy Alcuni diritti riservati community <a class="border-bottom" href="#">MERGE-it</a> 2023
+                      <br /><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a><br />
+                      <small>salvo dove diversamente indicato</small>
+                   </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
@@ -591,8 +594,8 @@ $contents = new Contents();
 
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" title="Torna in cima"><i class="fas fa-arrow-up"></i></a>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
