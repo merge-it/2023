@@ -245,8 +245,8 @@ $contents = new Contents();
 							<tr>
 								<th class="hour">11:00</th>
 								<td>
-									<div class="cell half"><?php echo $contents->printCell('cittadella') ?></div>
                                     <div class="cell half"><?php echo $contents->printCell('vvvv') ?></div>
+                                    <div class="cell half"><?php echo $contents->printCell('cittadella') ?></div>
 								</td>
                                 <td>
                                     <div class="cell half bg-white">&nbsp;</div>
