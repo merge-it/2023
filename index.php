@@ -580,7 +580,10 @@ $contents = new Contents();
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    <a class="border-bottom" href="#">MERGE-it</a>, CC-4.0.
+                   <p>&copy Alcuni diritti riservati community <a class="border-bottom" href="#">MERGE-it</a> 2023
+                      <br /><a href="https://creativecommons.org/licenses/by-sa/4.0/" rel="license">CC BY-SA 4.0</a><br />
+                      <small>salvo dove diversamente indicato</small>
+                   </p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
